@@ -37,7 +37,7 @@
                 {
                     matrix[i, j] = replacement;
                 }
-                Console.Write(matrix[i, j] + " ");
+                Console.Write($"{matrix[i, j]} ");
             }
             Console.WriteLine();
         }
